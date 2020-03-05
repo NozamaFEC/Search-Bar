@@ -56,11 +56,11 @@
     
 }
 
-.Location{
-    height:25px;
+/* .Location{
+ margin-bottom: 50px;
     
 
-}
+} */
 
 .TheTable {
     /* border-spacing:10px 0 ; */
@@ -68,6 +68,10 @@
 }
 
 .Address {
+
+
+}
+.Address1{
 
 }
 

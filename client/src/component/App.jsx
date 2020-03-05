@@ -69,10 +69,10 @@ class App extends React.Component {
                 </table>
             </div>
             <div className="Flow">
-                <tbody>
                 <input className='Location' type='image' src='https://i.pinimg.com/originals/ce/87/be/ce87bec6960894a07cff91a3a4a7615e.png'/>
+                <tbody>
                     <th className='Address'>Hello</th>
-                    <tr>Select Your Address</tr>
+                    <tr className='Address1'>Select Your Address</tr>
                 </tbody>
             </div>
             <div className="Move">

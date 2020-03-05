@@ -11,6 +11,11 @@ app.get('/test', (req, res) => {
     res.send("I work");
 })
 
+app.route('/bundle')
+.get((reg,res)=>{
+    res.sendFile(express.static(path.join(process.cwd(),'/client/dist')));
+})
+
 app.get('/', (req, res) => {
     res.send('Hi')
     // connection.query('INSERT into products (product_name) VALUES (?);', [product_name], (err, data) => {
@@ -24,7 +29,7 @@ app.get('/', (req, res) => {
  });
 
 
-let port = 4500
+let port = 3700
 app.listen(port, function () {
     console.log(`listening on port ${port}`);
 });
