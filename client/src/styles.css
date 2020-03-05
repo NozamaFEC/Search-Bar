@@ -1,0 +1,160 @@
+.container{
+    display: grid;
+    grid-template-columns: 15% 50% 35% ;
+    background-color:orangered ;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 150px;
+    
+
+
+}
+
+.Noz{
+    color: blueviolet;
+  position: relative;
+}
+
+.Boom table{
+    border-spacing:20px 6px; 
+    border-collapse: separate;
+    /* display: grid; */
+   /* grid-template-columns:1fr ;
+   grid-template-rows:1fr 1fr ; */
+  
+}
+
+
+
+.Searchy{
+    font-size: 50px ;
+    font-display: 75px;
+    height:45px;
+    margin-top: 1%;
+    position: relative;
+
+}
+
+.Kick{
+    font-size:250% ;
+    margin-top: 2%;
+    margin-left: 15%;
+
+}
+
+.Sales{
+    color: darkviolet;
+    /* margin-top: 100px; */
+
+
+}
+
+.Flow{
+    font-size: 20px;
+    color: rgb(11, 74, 192);
+    margin-top: 20px;
+    
+}
+
+.TheTable table{
+    /* border-spacing:10px 0 ; */
+
+}
+
+th:hover,h1:hover{
+    border:1px solid darkorchid;
+}
+
+.Emirp{
+    /* margin-left: 50px;
+    margin-top: -13%; */
+    color: darkred;
+    position: absolute;
+    top: 35px;
+    left: 75px;
+    
+}
+
+.Globe{
+    /* height: 35px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%; */
+    /* margin-bottom: 50px;
+
+    position: relative;
+    display: inline-block;   */
+}
+
+
+
+.Move table{
+   
+    /* margin-top: 5%; */
+
+}
+
+.Magnify{
+width: 12%;
+
+height: 51px;
+margin-bottom: -6px;
+
+
+/* padding: 12px 0 10px 0;
+margin-bottom: 10px; */
+
+
+/* position: absolute; */
+
+}
+
+.Form2{
+    display:flex;
+    flex-direction: row;
+    align-items: center ;
+
+}
+
+.dropbtn{    
+    background-color: rgb(212, 22, 15);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    /* border: none; */
+
+   
+}
+
+
+.dropdown-content{
+    display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: rgb(224, 9, 9);
+}
+.Globe:hover .dropdown-content {
+    display: block;
+}
+.Globe:hover .dropbtn {
+    background-color: #a818c5;
+}
+
+
+
+
+
