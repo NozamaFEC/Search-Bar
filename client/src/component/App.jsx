@@ -70,7 +70,8 @@ class App extends React.Component {
             </div>
             <div className="Flow">
                 <tbody>
-                    <th className='Address' src=''>Hello</th>
+                <input className='Location' type='image' src='https://i.pinimg.com/originals/ce/87/be/ce87bec6960894a07cff91a3a4a7615e.png'/>
+                    <th className='Address'>Hello</th>
                     <tr>Select Your Address</tr>
                 </tbody>
             </div>

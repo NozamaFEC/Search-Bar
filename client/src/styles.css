@@ -56,8 +56,18 @@
     
 }
 
-.TheTable table{
+.Location{
+    height:25px;
+    
+
+}
+
+.TheTable {
     /* border-spacing:10px 0 ; */
+
+}
+
+.Address {
 
 }
 
