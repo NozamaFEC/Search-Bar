@@ -60,11 +60,11 @@ class App extends React.Component {
                 </div>
                 <form className='Form2' method='get'>
                     <div className='SearchDrp'>
-                    <button onClick={this.myFunction} className='SearchDropbtn'>Hello</button>
+                    <button  onClick={this.myFunction} className='SearchDropbtn'>What's New</button>
                      <div id="myDropDown" className='Searchdropdown-content'>
-                        <a href="#">link 1</a>
-                        <a href="#">link 2</a>
-                        <a href="#">link 3</a>
+                        <a href="#">Eletronics</a>
+                        <a href="#">Sports</a>
+                        <a href="#">Toys</a>
                      </div>
                     </div>
                 <input className="Searchy" type='text' placeholder='Search Nozama' />
