@@ -40,7 +40,7 @@ class App extends React.Component {
                 <h4 className="Emirp">try Emirp</h4>
                 </div>
                 <form className='Form2' method='get'>
-
+                    <button className='SearchDrp' >hello</button>
                 <input className="Searchy" type='text' placeholder='Search Nozama' />
                   <input className='Magnify' type='image' src="https://previews.123rf.com/images/oksananahorna/oksananahorna1803/oksananahorna180300036/97338917-vector-illustration-magnifying-glass-icon-magnify-icon.jpg"/>
 
@@ -69,33 +69,33 @@ class App extends React.Component {
                 </table>
             </div>
             <div className="Flow">
-                <input className='Location' type='image' src='https://i.pinimg.com/originals/ce/87/be/ce87bec6960894a07cff91a3a4a7615e.png'/>
                 <tbody>
-                    <th className='Address'>Hello</th>
-                    <tr className='Address1'>Select Your Address</tr>
+                <input className='Location' type='image' src='https://i.pinimg.com/originals/ce/87/be/ce87bec6960894a07cff91a3a4a7615e.png'/>
+                    <th className='Address'>Hello, Select Your Address</th>
+                  
                 </tbody>
             </div>
             <div className="Move">
+                <table>
+                <thead className="TheTable">
+                    
+                <td className="">Today's Deals</td>
+                <td className="">Best Sellers</td>
+                <td className="">Customer Service</td>
+                <td className="">Find Gifts</td>
+                <td className="">Registry</td>
+                <td className="">New Releases</td>
+                <td className="">Gift Card</td>
                 
-                <tbody className="TheTable">
-                    <table>
-                <th className="">Today's Deals</th>
-                <th className="">Best Sellers</th>
-                <th className="">Customer Service</th>
-                <th className="">Find Gifts</th>
-                <th className="">Registry</th>
-                <th className="">New Releases</th>
-                <th className="">Gift Card</th>
-                <th className="">Sell</th>
-                <th className="">Nozama Basics</th>
+                </thead>
                 </table>
-                </tbody>
             </div>
             <div className="Kick">
                 <tbody>
                     <th className="Sales">
                         Sale of the Day
                     </th>
+                    <input className='Cart' type='image' src='https://images.vexels.com/media/users/3/136827/isolated/preview/9c9157b08f5e79284a1b4c78dbf86307-shopping-cart-round-icon-by-vexels.png'/>
                 </tbody>
             </div>
             </div>

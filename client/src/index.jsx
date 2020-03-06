@@ -8,4 +8,4 @@ import DropBox from './component/DropBox.jsx';
 
 
 
-ReactDOM.render(<App/>, document.getElementById('ellis1'))
+ReactDOM.render(<App/>, document.getElementById('root'))

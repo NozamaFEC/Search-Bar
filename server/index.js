@@ -12,9 +12,9 @@ app.get('/test', (req, res) => {
 })
 
 app.route('/bundle')
-.get((reg,res)=>{
-    res.sendFile(express.static(path.join(process.cwd(),'/client/dist')));
-})
+  .get((req, res) => {
+    res.sendFile(path.join(process.cwd(), '/client/dist/bundle.js'));
+  });
 
 app.get('/', (req, res) => {
     res.send('Hi')
