@@ -7,12 +7,12 @@
     height: 150px;
     
 
-
 }
 
 .Noz{
     color: blueviolet;
   position: relative;
+  margin-left: 20px;
 }
 
 .Boom table{
@@ -71,12 +71,16 @@
 .Location{
  height:35px ;
  margin-bottom: 1px;
+ margin-left: 15px;
     
 
 }
 
+
+
 .TheTable {
-    /* border-spacing:10px 0 ; */
+    color:whitesmoke;
+    font-size: 19px;
 
 }
 
@@ -187,6 +191,55 @@ margin-bottom: 10px; */
 .Globe:hover .dropbtn {
     background-color: #a818c5;
 }
+
+
+.SearchDropbtn{
+    background-color: violet;
+    color:white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.SearchDropbtn:hover, .SearchDropbtn:focus {
+    background-color: tomato;
+
+}
+
+.SearchDrp{
+    position: relative;
+    display: inline-block;
+}
+
+.Searchdropdown-content{
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Searchdropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.Searchdropdown-content a:hover{
+    background-color: #ddd;
+}
+
+.show{
+    display:block;
+}
+
+
+
 
 
 

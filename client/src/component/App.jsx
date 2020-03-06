@@ -40,7 +40,14 @@ class App extends React.Component {
                 <h4 className="Emirp">try Emirp</h4>
                 </div>
                 <form className='Form2' method='get'>
-                    <button className='SearchDrp' >hello</button>
+                    <div className='SearchDrp'>
+                    <button onClick='myFunction()'className='SearchDropbtn'>Hello</button>
+                    <div className='Searchdropdown-content'>
+                        <a href="#">link 1</a>
+                        <a href="#">link 2</a>
+                        <a href="#">link 3</a>
+                    </div>
+                    </div>
                 <input className="Searchy" type='text' placeholder='Search Nozama' />
                   <input className='Magnify' type='image' src="https://previews.123rf.com/images/oksananahorna/oksananahorna1803/oksananahorna180300036/97338917-vector-illustration-magnifying-glass-icon-magnify-icon.jpg"/>
 
