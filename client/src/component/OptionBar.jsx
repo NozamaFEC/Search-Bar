@@ -14,13 +14,13 @@ class OptionBar extends React.Component{
                 <table>
                 <thead className="TheTable">
                     
-                <td className="">Today's Deals</td>
-                <td className="">Best Sellers</td>
-                <td className="">Customer Service</td>
-                <td className="">Find Gifts</td>
-                <td className="">Registry</td>
-                <td className="">New Releases</td>
-                <td className="">Gift Card</td>
+                <td className="eng">Today's Deals</td>
+                <td className="eng">Best Sellers</td>
+                <td className="eng">Customer Service</td>
+                <td className="eng">Find Gifts</td>
+                <td className="eng">Registry</td>
+                <td className="eng">New Releases</td>
+                <td className="eng">Gift Card</td>
                 
                 </thead>
                 </table>

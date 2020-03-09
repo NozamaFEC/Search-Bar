@@ -16,7 +16,7 @@ class SignInComp extends React.Component {
         return(
             <div className="Boom">
                 <table>
-                <tbody>
+                <thead>
                     <th className='Globe'>
                         <button className="dropbtn">en</button>
                         <div className='dropdown-content'>
@@ -34,7 +34,7 @@ class SignInComp extends React.Component {
                         <tr>& Orders</tr>
                     </th>
                     <th>Try Emirp</th>
-                </tbody>
+                </thead>
                 </table>
             </div>
         )

@@ -83,8 +83,8 @@
 
 }
 
-th:hover,h1:hover,td:hover{
-    border:1px solid darkorchid;
+th:hover,h1:hover,.eng:hover{
+    border:1px solid white;
 }
 
 .Emirp{
@@ -116,8 +116,10 @@ th:hover,h1:hover,td:hover{
 
 .Magnify{
 width: 12%;
-height: 51px;
-margin-bottom: -7.5px;
+height: 50.7px;
+margin-bottom: -8.5px;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
 /* padding: 12px 0 10px 0;
 margin-bottom: 10px; */
 
@@ -140,8 +142,9 @@ margin-bottom: 10px; */
 .dropbtn{    
     background-color:#146eb4 ;
     color: white;
-    padding: 16px;
+    padding: 10px;
     font-size: 16px;
+    border-radius: 25px;
     /* border: none; */
 }
 
@@ -170,7 +173,7 @@ margin-bottom: 10px; */
     display: block;
 }
 .Globe:hover .dropbtn {
-    background-color: #a818c5;
+    background-color: #ff9900;
 }
 
 
@@ -182,6 +185,11 @@ margin-bottom: 10px; */
     border: none;
     cursor: pointer;
     width: 150px;
+    margin-top: px;
+    height:51px;
+
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 .SearchDropbtn:hover, .SearchDropbtn:focus {
@@ -192,6 +200,7 @@ margin-bottom: 10px; */
 .SearchDrp{
     position: relative;
     display: inline-block;
+    margin-bottom: 25pm;
 }
 
 .Searchdropdown-content{
@@ -216,4 +225,14 @@ margin-bottom: 10px; */
 
 .show{
     display:block;
+}
+
+.Footer{
+    position:fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color:white;
+    text-align:center ;
 }
